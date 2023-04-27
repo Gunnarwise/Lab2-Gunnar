@@ -22,6 +22,6 @@ public class PlayerController : MonoBehaviour
         playerRb.AddForce(Vector3.right * speed * verticalInput);
         playerRb.AddForce(Vector3.back * speed * horizontalInput);
 
-        
+       
     }
 }
